@@ -6,9 +6,15 @@ Allows you to pause and resume all setTimeout and setInterval callbacks.
 
 Can help stabalizing the application and stop data or DOM refreshes, for example, for automation testing purposes.
 
-### Installing
+## Installing
 
 npm install --save timer-utils
+
+## Usage
+
+```javascript
+
+```
 
 ## License
 
