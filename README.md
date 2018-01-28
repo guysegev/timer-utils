@@ -24,7 +24,6 @@ setInterval(msg => { // setInterval of timer-utils
 
 setTimeout(() => { // native setTimeout (not in the import statement)
 	console.log('~~~ Stoping callbacks execution for 7 seconds ~~~');
-
 	pauseIntervalCallbacks();
 
 	setTimeout(() => { // native setTimeout (not in the import statement)
@@ -37,7 +36,7 @@ setTimeout(() => { // native setTimeout (not in the import statement)
 ![](https://github.com/guysegev/timer-utils/blob/master/example/example.jpg)
 
 
-## Package API
+## Library API
 ```javascript
 
 
