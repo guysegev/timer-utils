@@ -10,7 +10,6 @@ Can help stabalizing the application and stop data or DOM refreshes, for example
 
 ```
 npm install --save timer-utils
-
 ```
 
 ## Usage example
@@ -25,6 +24,7 @@ setInterval(msg => { // setInterval of timer-utils
 
 setTimeout(() => { // native setTimeout (not in the import statement)
 	console.log('~~~ Stoping callbacks execution for 7 seconds ~~~');
+
 	pauseIntervalCallbacks();
 
 	setTimeout(() => { // native setTimeout (not in the import statement)
@@ -33,10 +33,13 @@ setTimeout(() => { // native setTimeout (not in the import statement)
 	}, 7000);
 }, 4500);
 ```
+
 ![](example/example.jpg)
 
-## Library API
+
+## Package API
 ```javascript
+
 
 // starts a native setTimeout, returns the ID value of the timer (for clearTimeout usage)
 setTimeout(callback, milliseconds, ...args)

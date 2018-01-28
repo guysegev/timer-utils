@@ -1,0 +1,27 @@
+{
+  "name": "timer-utils",
+  "version": "1.0.2",
+  "author": "Guy Segev <guy.sgv@gmail.com>",
+  "description": "JavaScript utility library for timeouts and intervals",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.16.0",
+    "eslint-config-google": "^0.9.1"
+  },
+  "scripts": {
+    "build": "babel src --out-file dist/timer-utils.umd.js --source-maps",
+    "build-example": "babel example/app.js --out-file example/app.umd.js",
+    "prepublish": "npm run build"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "plugins": [
+      "transform-es2015-modules-umd"
+    ]
+  },
+  "license": "MIT"
+}
