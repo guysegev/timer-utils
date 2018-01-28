@@ -34,7 +34,7 @@ setTimeout(() => { // native setTimeout (not in the import statement)
 }, 4500);
 ```
 
-![](example/example.jpg)
+![](https://github.com/guysegev/timer-utils/blob/master/example/example.jpg)
 
 
 ## Package API
