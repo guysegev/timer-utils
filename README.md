@@ -33,7 +33,7 @@ setTimeout(() => { // native setTimeout (not in the import statement)
 }, 4500);
 ```
 
-![](https://github.com/guysegev/timer-utils/blob/master/example/example.jpg)
+![](https://raw.githubusercontent.com/guysegev/timer-utils/master/example/example.jpg)
 
 
 ## Library API
