@@ -1,8 +1,9 @@
 {
   "name": "timer-utils",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": "Guy Segev <guy.sgv@gmail.com>",
   "description": "JavaScript utility library for timeouts and intervals",
+  "types": "./index.d.ts",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
